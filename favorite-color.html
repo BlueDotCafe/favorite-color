@@ -3,17 +3,31 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Favorite Color</title>
   </head>
   <body>
     <div class="container">
       <h1>My Favorite Color</h1>
+      <p>It is a <strong>true honor</strong> for me to be able to walk out the door after dressing myself with more than one color. </p>
 
-      <p>Let's play peek-a-boo. Click here to see the surprise!</p>
+      <div class="color-hidden">
+        <p>Let's play peek-a-boo. Click <span class="clickable">here</span> to see the surprise!</p>
+      </div>
 
-    <img src="img/images.png" alt="row of colors">
+      <div class="color-showing">
+        <p>What a gorgeous color. Click <span class="clickable">here</span> to see it again.</p>
+        <img src="img/images.png" alt="row of colors">
+      </div>
+
+
+
+
+
+
+
+
     </div>
   </body>
 </html>
