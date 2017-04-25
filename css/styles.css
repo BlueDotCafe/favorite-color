@@ -9,12 +9,25 @@
 }
 
 
-.color-showing {
+#color-showing {
+  display: none;
+}
+
+#flower-fade-out {
   display: none;
 }
 
 
-img {
+
+.colors {
+  height: 100px;
+  with: 275px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flowers {
   height: 100px;
   with: 275px;
   display: block;
